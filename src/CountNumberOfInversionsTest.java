@@ -39,4 +39,13 @@ public class CountNumberOfInversionsTest {
 
         assertThat(actualInversions, is(expectedInversions));
     }
+
+    @Test
+    public void mergeSort() {
+
+        int[] array = {1, 3, 5, 2, 4, 6};
+        int inversionsCount = CountNumberOfInversions.mergeSort(array, array.length);
+
+        Assert.assertTrue(inversionsCount == 3);
+    }
 }

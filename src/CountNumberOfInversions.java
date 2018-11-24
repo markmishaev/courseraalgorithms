@@ -77,6 +77,6 @@ public class CountNumberOfInversions {
         for (i = left; i <= right; i++)
             arr[i] = temp[i];
 
-        return inv_count;
+            return inv_count;
     }
 }
